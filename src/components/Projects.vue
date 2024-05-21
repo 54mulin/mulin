@@ -1,18 +1,36 @@
 <template>
-  <v-empty-state image="https://vuetifyjs.b-cdn.net/docs/images/components/v-empty-state/astro-dog.svg" size="200"
-    text-width="250">
-    <template #media>
-      <v-img class="mb-8"></v-img>
-    </template>
-
-    <template #title>
-      <div class="text-h6 text-high-emphasis">Empty in drafts</div>
-    </template>
-
-    <template #text>
-      <div class="text-body-1">
-        Save a draft message and it will show up here
-      </div>
-    </template>
-  </v-empty-state>
+  <v-card class="ma-5 mx-auto" max-width="1000">
+    <div>
+      <v-expansion-panels>
+        <v-expansion-panel v-for="(prj, i) in prjs" :key="i">
+          <v-expansion-panel-title expand-icon="mdi-menu-down">
+            {{prj.title}}
+          </v-expansion-panel-title>
+          <v-expansion-panel-text>
+            <v-list>
+              <v-list-item-subtitle>{{prj.devYear}}</v-list-item-subtitle>
+              <v-list-item-text>{{ prj.intro.descCN }}</v-list-item-text>
+              {{ prj.intro.desc }}
+              <v-list-item v-for="item in prj.intro.list">
+                <v-list-item-title>{{ item.title }}</v-list-item-title>
+                {{ item.desc }}
+              </v-list-item>
+            </v-list>
+          </v-expansion-panel-text>
+        </v-expansion-panel>
+      </v-expansion-panels>
+    </div>
+  </v-card>
 </template>
+
+<script>
+import { prjs } from "./Projects.js";
+
+export default {
+  data() {
+    return {
+      prjs: prjs
+    };
+  }
+};
+</script>

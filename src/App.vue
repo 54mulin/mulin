@@ -2,7 +2,7 @@
   <v-app>
     <v-app-bar class="d-flex justify-center">
       <v-container fluid class="pa-0 d-flex justify-center">
-        <v-btn v-for="item in allComponents" @click="changePage(item.id)">
+        <v-btn rounded class="text-light-green-darken-1" v-for="item in allComponents" @click="changePage(item.id)">
           {{ item.title }}
         </v-btn>
       </v-container>
