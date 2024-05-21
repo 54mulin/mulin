@@ -1,19 +1,27 @@
 <template>
-    <v-card class="ma-5">
+    <v-card class="ma-5 mx-auto" max-width="1000">
         <v-card-title>
-            <v-avatar size="150px">
-                <v-img alt="mulin"
-                    src="https://lh3.googleusercontent.com/jst1v7bWdoGDXguKOFekfbrGY5ZHSgL6Dzek5snBS8AqSnyTLa7sYCNgy1Si_FWupfXamqJsUPVhh2lxX9al1IQ=w1280"></v-img>
-            </v-avatar>
-            <v-container fluid class="pa-0 text-light-green-darken-4">Maureen Lin</v-container>
-            <v-container fluid class="px-0 text-subtitle-2">
-                <v-icon icon="mdi-email-outline" size="x-small"></v-icon>
-                E-mail: <br />
-                mumulin1013[at]gmail.com <br />
-                <v-icon icon="mdi-briefcase-outline" size="x-small"></v-icon>
-                Office: <br />
-                Tjing Ling Industrial Building 222, National Taiwan University
-            </v-container>
+            <v-row class="mt-3">
+                <v-col cols="12" md="2" >
+                    <v-avatar size="150" >
+                        <v-img alt="mulin" src="/Users/mulin/mulin/src/assets/media.png"></v-img>
+                    </v-avatar>
+                </v-col>
+                <v-col cols="12" md="10" class="d-flex align-center">
+                    <v-container class="pa-0">
+                        <v-container fluid class="pa-0 pt-3 text-light-green-darken-4">Maureen Lin</v-container>
+                        <v-container fluid class="pa-0 text-subtitle-2">
+                            <v-icon icon="mdi-email-outline" size="x-small"></v-icon>
+                            E-mail: <br />
+                            mumulin1013<v-icon icon="mdi-at" size="x-small"></v-icon>gmail.com<br />
+                            <v-icon icon="mdi-briefcase-outline" size="x-small"></v-icon>
+                            Office: <br />
+                            Tjing Ling Industrial Building 222, National Taiwan University
+                        </v-container>
+                    </v-container>
+                </v-col>
+            </v-row>
+
         </v-card-title>
 
         <v-card-text>

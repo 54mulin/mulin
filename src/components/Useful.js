@@ -1,0 +1,22 @@
+export const uses= [
+    {
+        title:'Github',
+        icon:'mdi-github',
+        url:'https://github.com/54mulin'
+    },
+    {
+        title:'Medium',
+        icon:'mdi-pencil-box-multiple-outline',
+        url:'https://54mulin.medium.com/'
+    },
+    {
+        title:'Linkedin',
+        icon:'mdi-linkedin',
+        url:'www.linkedin.com/in/54mulin'
+    },
+    {
+        title:'Youtube',
+        icon:'mdi-youtube',
+        url:'https://www.youtube.com/@54add45/'
+    },
+]  

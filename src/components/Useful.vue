@@ -1,18 +1,25 @@
 <template>
-    <v-empty-state image="https://vuetifyjs.b-cdn.net/docs/images/components/v-empty-state/astro-dog.svg" size="200"
-        text-width="250">
-        <template #media>
-            <v-img class="mb-8"></v-img>
-        </template>
-
-        <template #title>
-            <div class="text-h6 text-high-emphasis">Empty in drafts</div>
-        </template>
-
-        <template #text>
-            <div class="text-body-1">
-                Save a draft message and it will show up here
-            </div>
-        </template>
-    </v-empty-state>
+    <v-card class="ma-5 mx-auto" max-width="1000">
+        <v-list density="compact">
+            <v-list-subheader>Useful Links</v-list-subheader>
+            <v-list-item v-for="(use, i) in uses" :key="i" :value="use.title" color="primary" :href="use.url" target="_blank">
+                <template #prepend>
+                    <v-icon :icon="use.icon"></v-icon>
+                </template>
+                <v-list-item-title  v-text="use.title" ></v-list-item-title>
+            </v-list-item>
+        </v-list>
+    </v-card>
 </template>
+
+<script>
+import { uses } from "./Useful.js";
+
+export default {
+    data() {
+        return {
+            uses: uses
+        };
+    }
+};
+</script>
