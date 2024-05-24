@@ -8,11 +8,12 @@
           </v-expansion-panel-title>
           <v-expansion-panel-text>
             <v-list>
-              <v-list-item-subtitle>{{prj.devYear}}</v-list-item-subtitle>
-              <v-list-item-text>{{ prj.intro.descCN }}</v-list-item-text>
+              <v-list-item-subtitle>{{prj.devYear}}{{prj.job}}{{prj.languages}}</v-list-item-subtitle>
+              <v-divider></v-divider>
+                <v-img :height="300" :src="prj.img"></v-img>
               {{ prj.intro.desc }}
               <v-list-item v-for="item in prj.intro.list">
-                <v-list-item-title>{{ item.title }}</v-list-item-title>
+                {{ item.title }}<br /> 
                 {{ item.desc }}
               </v-list-item>
             </v-list>
@@ -25,11 +26,13 @@
 
 <script>
 import { prjs } from "./Projects.js";
+import imgage from "../assets/media.png";
 
 export default {
   data() {
     return {
-      prjs: prjs
+      prjs: prjs,
+      temp: imgage,
     };
   }
 };

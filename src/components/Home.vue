@@ -4,20 +4,20 @@
             <v-row class="mt-3">
                 <v-col cols="12" md="2" >
                     <v-avatar size="150" >
-                        <v-img alt="mulin" src="/Users/mulin/mulin/src/assets/media.png"></v-img>
+                        <v-img alt="mulin" src="../assets/media.png"></v-img>
                     </v-avatar>
                 </v-col>
-                <v-col cols="12" md="10" class="d-flex align-center">
+                <v-col cols="12" md="10"  class="d-flex align-center pt-0">
                     <v-container class="pa-0">
-                        <v-container fluid class="pa-0 pt-3 text-light-green-darken-4">Maureen Lin</v-container>
-                        <v-container fluid class="pa-0 text-subtitle-2">
+                        <v-list-item fluid class="pa-0 pt text-light-green-darken-4">Maureen Lin</v-list-item>
+                        <v-list-item fluid class="pa-0 text-subtitle-2">
                             <v-icon icon="mdi-email-outline" size="x-small"></v-icon>
                             E-mail: <br />
                             mumulin1013<v-icon icon="mdi-at" size="x-small"></v-icon>gmail.com<br />
                             <v-icon icon="mdi-briefcase-outline" size="x-small"></v-icon>
                             Office: <br />
-                            Tjing Ling Industrial Building 222, National Taiwan University
-                        </v-container>
+                            <span class="text-wrap">Tjing Ling Industrial Building 222, National Taiwan University</span>
+                        </v-list-item>
                     </v-container>
                 </v-col>
             </v-row>
