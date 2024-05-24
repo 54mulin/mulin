@@ -13,7 +13,7 @@
                         <v-list-item fluid class="pa-0 text-subtitle-2">
                             <v-icon icon="mdi-email-outline" size="x-small"></v-icon>
                             E-mail: <br />
-                            mumulin1013<v-icon icon="mdi-at" size="x-small"></v-icon>gmail.com<br />
+                            mulin<v-icon icon="mdi-at" size="x-small"></v-icon>ntnu.edu.tw<br />
                             <v-icon icon="mdi-briefcase-outline" size="x-small"></v-icon>
                             Office: <br />
                             <span class="text-wrap">Tjing Ling Industrial Building 222, National Taiwan
