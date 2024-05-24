@@ -12,7 +12,7 @@ export const uses= [
     {
         title:'Linkedin',
         icon:'mdi-linkedin',
-        url:'www.linkedin.com/in/54mulin'
+        url:'https://www.linkedin.com/in/54mulin'
     },
     {
         title:'Youtube',
