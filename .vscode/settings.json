@@ -1,0 +1,59 @@
+{
+    "[blade]": {
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+    },
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+    "bladeFormatter.format.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "always"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.fontFamily": "'JetBrains Mono SemiBold', 'Source Code Pro SemiBold', 'Sarasa Mono TC', 'Noto Sans Mono TC'",
+    "editor.fontSize": 13,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.lineHeight": 24,
+    "editor.stickyScroll.enabled": false,
+    "editor.tabCompletion": "on",
+    "emmet.triggerExpansionOnTab": true,
+    "explorer.confirmDelete": false,
+    "files.associations": {
+        "*.blade": "blade",
+        "*.tpl": "html"
+    },
+    "files.autoSave": "onFocusChange",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "intelephense.diagnostics.enable": false,
+    "javascript.format.semicolons": "remove",
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "prettier.vueIndentScriptAndStyle": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.startupEditor": "none",
+    "git.replaceTagsWhenPull": true,
+    "vetur.validation.template": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorCustomizations": {
+        "[Material Theme Darker]": {
+            "sideBar.foreground": "#bbbbbb",
+            "editorIndentGuide.background1": "#575757",
+        },
+
+    },
+    "git.ignoreRebaseWarning": true,
+    "workbench.colorTheme": "Material Theme Darker",
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    }
+}
