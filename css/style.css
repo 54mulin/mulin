@@ -3145,7 +3145,7 @@ body.light .fn__nav a {
 }
 
 body.light .fn__nav a:hover {
-	color: #111;
+	color: #ffffff;
 }
 
 body.light .resumo_fn_modalbox .modal_content::-webkit-scrollbar-thumb {
@@ -3261,7 +3261,7 @@ body.light .resumo_fn_modalbox .modal_content::-webkit-scrollbar-thumb {
 
 .resumo_fn_modalbox .modal_content {
 	scrollbar-width: thin;
-	scrollbar-color: #333 #111;
+	scrollbar-color: #cecece #fff;
 }
 
 .resumo_fn_modalbox .modal_content::-webkit-scrollbar {
@@ -3369,6 +3369,7 @@ body.light .resumo_fn_modalbox .modal_content::-webkit-scrollbar-thumb {
 .resumo_fn_modalbox .fn__desc {
 	margin-bottom: 12px;
 	font-size: 14px;
+	line-height: 2;
 
 }
 

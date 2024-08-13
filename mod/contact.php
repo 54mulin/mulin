@@ -6,7 +6,7 @@ $php_email 		= $_POST['ajax_email'];
 $php_emailto	= $_POST['ajax_emailto'];
 $php_message 	= $_POST['ajax_message'];
 $php_phone 		= $_POST['ajax_phone'];
-$php_emailto = "bbell.semm@gmail.com";
+$php_emailto = "mumulin1013@gmail.com";
 
 
 
