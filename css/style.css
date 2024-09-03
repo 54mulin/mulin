@@ -712,7 +712,7 @@ a:focus {
 .resumo_fn_main_title .desc {
 	margin: 0;
 	padding: 0;
-	font-size: 15px;
+	font-size: 17px;
 	line-height: 44px;
 	letter-spacing: 0;
 	margin-bottom: 57px;
@@ -1765,7 +1765,7 @@ a:focus {
 }
 
 #archives .resumo_fn_main_title {
-	margin-bottom: 70px;
+	margin-bottom: 10px;
 }
 
 .resumo_fn_blog_list ul {
