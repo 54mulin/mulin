@@ -718,6 +718,17 @@ a:focus {
 	margin-bottom: 57px;
 }
 
+.resumo_fn_main_title .desc a {
+    color: #a5ab8e; 
+    text-decoration: none; 
+}
+
+/* 當超連結被懸停時改變顏色 */
+.resumo_fn_main_title .desc a:hover {
+    color: #697149 ;
+    text-decoration: underline;
+}
+
 /*------------------------------------------------------------------*/
 /*	06) About Section
 /*------------------------------------------------------------------*/
